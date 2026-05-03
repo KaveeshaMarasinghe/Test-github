@@ -1,4 +1,4 @@
-# Test Automation
+# Test Automation (IT23617032)
 
 This project automates frontend transliteration testing using Python + Playwright.
 It reads Singlish inputs and expected Sinhala outputs from an Excel file, runs each test case in the web UI, and writes back:
@@ -53,6 +53,7 @@ python test_automation.py --headless
 ```powershell
 python test_automation.py --excel "C:\path\to\your_file.xlsx"
 ```
+Ex python test_automation.py --excel "C:\Users\PABO\Desktop\IT23617032\IT23617032\Assignment 1 - Test cases.xlsx"
 
 - Use a different sheet name:
 
